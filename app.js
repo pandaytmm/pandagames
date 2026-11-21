@@ -1,6 +1,7 @@
 const GAMES = {
   komsu: { repo: "pandaytmm/komsu", asset: /\.exe$/i },
   cot: { repo: "pandaytmm/CALL-OF-TANKS-BETA-MAC", asset: /\.zip$/i },
+  blokarena: { repo: "pandaytmm/BlokArena", asset: /\.zip$/i, archive: true },
 };
 
 const numberFmt = new Intl.NumberFormat("tr-TR");
@@ -29,10 +30,15 @@ function updateGame(id, cfg, release) {
   const card = document.querySelector(`[data-game="${id}"]`);
   if (!card) return null;
 
-  const asset = release.assets.find((a) => cfg.asset.test(a.name)) ?? release.assets[0];
+  const asset = release.assets.find((a) => cfg.asset.test(a.name)) ?? release.assets[0] ?? null;
 
   const version = card.querySelector("[data-version]");
   if (version && release.tag_name) version.textContent = prettyTag(release.tag_name);
+
+  if (!asset && cfg.archive && release.tag_name) {
+    const link = card.querySelector('[data-role="download"]');
+    if (link) link.href = `https://github.com/${cfg.repo}/archive/refs/tags/${release.tag_name}.zip`;
+  }
 
   if (asset) {
     const link = card.querySelector('[data-role="download"]');

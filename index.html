@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>PANDAGAMES — Oyunlarımı indir</title>
-  <meta name="description" content="PANDAGAMES: kendi geliştirdiğim oyunların resmi indirme merkezi. KOMŞU, CALL OF TANKS ve yeni eklenecek oyunlar. Doğrudan GitHub Releases üzerinden güvenli indirme." />
+  <meta name="description" content="PANDAGAMES: kendi geliştirdiğim oyunların resmi indirme merkezi. KOMŞU, CALL OF TANKS, BlokArena ve yeni eklenecek oyunlar. Doğrudan GitHub Releases üzerinden güvenli indirme." />
   <meta name="theme-color" content="#060b0a" />
   <meta property="og:title" content="PANDAGAMES — Oyunlarımı indir" />
   <meta property="og:description" content="KOMŞU, CALL OF TANKS ve daha fazlası. Tek tıkla indir, doğrudan GitHub'dan güncel sürümü al." />
@@ -54,7 +54,7 @@
     <section class="hero" aria-labelledby="hero-title">
       <div class="wrap hero-grid">
         <div>
-          <span class="pill"><span class="pill-dot" aria-hidden="true"></span> KOMŞU v1.1.0 yayında</span>
+          <span class="pill"><span class="pill-dot" aria-hidden="true"></span> BlokArena v1.0.0 yayında</span>
           <h1 id="hero-title">Oyunlarım burada.<br /><span class="grad">İndir, kur, oyna.</span></h1>
           <p class="lead">
             PANDAGAMES, kendi geliştirdiğim oyunların resmi indirme merkezi. Tek tıkla doğrudan GitHub Releases'ten
@@ -77,7 +77,7 @@
           </div>
           <div class="stats">
             <div class="stat">
-              <strong>2</strong>
+              <strong>3</strong>
               <span>yayında oyun</span>
             </div>
             <div class="stat">
@@ -110,14 +110,14 @@
               <span class="t-meta">27.1 MB</span>
               <span class="t-state">hazır</span>
             </div>
-            <div class="t-row is-locked">
+            <div class="t-row">
               <b>BlokArena</b>
-              <span class="t-meta">gizli</span>
-              <span class="t-meta">—</span>
-              <span class="t-state">kilitli</span>
+              <span class="t-meta">v1.0.0</span>
+              <span class="t-meta">~140 MB</span>
+              <span class="t-state">hazır</span>
             </div>
             <div><span class="t-prompt">&gt;</span> durum</div>
-            <div class="t-ok">2 oyun indirmeye hazır<span class="cursor"></span></div>
+            <div class="t-ok">3 oyun indirmeye hazır<span class="cursor"></span></div>
           </div>
         </div>
       </div>
@@ -206,36 +206,40 @@
             </div>
           </article>
 
-          <article class="game-card is-locked reveal">
+          <article class="game-card reveal" data-game="blokarena">
             <div class="cover">
               <img src="assets/covers/blokarena.svg" alt="BlokArena: izometrik blok arenası kapak görseli" loading="lazy" width="1200" height="750" />
-              <span class="badge badge-soon">Gizli geliştirme</span>
-              <span class="lock-note">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
-                  <rect x="5" y="11" width="14" height="9" rx="2" />
-                  <path d="M8 11V8a4 4 0 0 1 8 0v3" />
-                </svg>
-                Özel erişim
+              <span class="badge badge-ver" data-version>v1.0.0</span>
+              <span class="badge badge-plat">
+                <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><rect width="7" height="7" rx="1"/><rect x="9" width="7" height="7" rx="1"/><rect y="9" width="7" height="7" rx="1"/><rect x="9" y="9" width="7" height="7" rx="1"/></svg>
+                Tarayıcı · Windows
               </span>
             </div>
             <div class="card-body">
               <h3>BlokArena</h3>
-              <p class="desc">Blok tabanlı çok oyunculu arena savaşı. Sunucu, launcher ve düello modları üzerinde çalışıyorum; özel erişimde geliştiriliyor, çok yakında herkese açılacak.</p>
+              <p class="desc">Tarayıcıda oynanan çok oyunculu voxel PvP: Silah PvP, BoxPvP ve SMP modları. Botlara ve arkadaşlarına karşı savaş; sunucuyu kendi bilgisayarında başlatıp tarayıcıdan katıl.</p>
               <ul class="tags">
                 <li>Çok oyunculu</li>
-                <li>Node.js</li>
-                <li>Yakında</li>
+                <li>Silah PvP</li>
+                <li>BoxPvP</li>
+                <li>SMP</li>
               </ul>
               <div class="actions">
-                <button class="btn btn-primary is-disabled" type="button" disabled>
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
-                    <rect x="5" y="11" width="14" height="9" rx="2" />
-                    <path d="M8 11V8a4 4 0 0 1 8 0v3" />
+                <a class="btn btn-primary" data-role="download" href="https://github.com/pandaytmm/BlokArena/archive/refs/tags/v1.0.0.zip">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M12 3v10m0 0 4.5-4.5M12 13 7.5 8.5" />
+                    <path d="M4 16.5V19a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 20 19v-2.5" />
                   </svg>
-                  Yakında yayında
-                </button>
+                  İndir <span class="btn-meta" data-size>~140 MB</span>
+                </a>
+                <a class="btn btn-ghost" href="https://github.com/pandaytmm/BlokArena" target="_blank" rel="noopener" aria-label="BlokArena kaynak kodu (GitHub)">
+                  <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                  </svg>
+                  Kaynak
+                </a>
               </div>
-              <p class="dl-meta">Herkese açık sürüm hazırlanıyor</p>
+              <p class="dl-meta">Node.js 18+ gerekir · <strong>npm install</strong> ile kur</p>
             </div>
           </article>
         </div>
@@ -259,12 +263,12 @@
           <div class="step reveal">
             <span class="step-num">02</span>
             <h3>Aç</h3>
-            <p><strong>KOMŞU.exe</strong> dosyasını çift tıkla. CALL OF TANKS için zip'i bir klasöre çıkarıp README adımlarını izle.</p>
+            <p><strong>KOMŞU.exe</strong> dosyasını çift tıkla. CALL OF TANKS ve BlokArena zip'ini bir klasöre çıkar; BlokArena'da <strong>npm install</strong> çalıştır.</p>
           </div>
           <div class="step reveal">
             <span class="step-num">03</span>
             <h3>Oyna</h3>
-            <p>Windows SmartScreen uyarı gösterirse <strong>Daha fazla bilgi → Yine de çalıştır</strong> seçeneğiyle devam edebilirsin.</p>
+            <p>Windows SmartScreen uyarı gösterirse <strong>Daha fazla bilgi → Yine de çalıştır</strong> seçeneğiyle devam edebilirsin. BlokArena'da <strong>npm start</strong> sonrası tarayıcıda <strong>localhost:3000</strong> adresine gir.</p>
           </div>
         </div>
 
