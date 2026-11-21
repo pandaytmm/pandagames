@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PANDAGAMES — Oyunlarımı indir</title>
+  <meta name="description" content="PANDAGAMES: kendi geliştirdiğim oyunların resmi indirme merkezi. KOMŞU, CALL OF TANKS ve yeni eklenecek oyunlar. Doğrudan GitHub Releases üzerinden güvenli indirme." />
+  <meta name="theme-color" content="#060b0a" />
+  <meta property="og:title" content="PANDAGAMES — Oyunlarımı indir" />
+  <meta property="og:description" content="KOMŞU, CALL OF TANKS ve daha fazlası. Tek tıkla indir, doğrudan GitHub'dan güncel sürümü al." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <noscript>
+    <style>
+      .reveal { opacity: 1; }
+      .reveal:not(.in) { transform: none; }
+    </style>
+  </noscript>
+</head>
+<body>
+  <a class="skip-link" href="#oyunlar">İçeriğe geç</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#" aria-label="PANDAGAMES ana sayfa">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" fill="none">
+            <path d="M23 45 V19 H33 a9 9 0 0 1 0 18 H23" stroke="#04130d" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </span>
+        <span>
+          PANDAGAMES
+          <small>OYUN İNDİRME MERKEZİ</small>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Ana menü">
+        <a class="nav-link" href="#oyunlar">Oyunlar</a>
+        <a class="nav-link" href="#nasil">Nasıl İndirilir?</a>
+        <a class="btn btn-ghost" href="https://github.com/pandaytmm" target="_blank" rel="noopener">
+          <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+          </svg>
+          GitHub
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap hero-grid">
+        <div>
+          <span class="pill"><span class="pill-dot" aria-hidden="true"></span> KOMŞU v1.1.0 yayında</span>
+          <h1 id="hero-title">Oyunlarım burada.<br /><span class="grad">İndir, kur, oyna.</span></h1>
+          <p class="lead">
+            PANDAGAMES, kendi geliştirdiğim oyunların resmi indirme merkezi. Tek tıkla doğrudan GitHub Releases'ten
+            güncel sürümü indir — aracı yok, reklam yok, bekleme yok. Yeni oyunlar da burada yayınlanacak.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#oyunlar">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 3v10m0 0 4.5-4.5M12 13 7.5 8.5" />
+                <path d="M4 16.5V19a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 20 19v-2.5" />
+              </svg>
+              Oyunları gör
+            </a>
+            <a class="btn btn-ghost" href="https://github.com/pandaytmm" target="_blank" rel="noopener">
+              <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+              </svg>
+              GitHub profilim
+            </a>
+          </div>
+          <div class="stats">
+            <div class="stat">
+              <strong>2</strong>
+              <span>yayında oyun</span>
+            </div>
+            <div class="stat">
+              <strong data-total-downloads>5</strong>
+              <span>toplam indirme</span>
+            </div>
+            <div class="stat">
+              <strong data-latest-date>Kas 2026</strong>
+              <span>son güncelleme</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="terminal" aria-hidden="true">
+          <div class="terminal-bar">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <span class="terminal-title">pandaytmm@pandagames — indirme listesi</span>
+          </div>
+          <div class="terminal-body">
+            <div><span class="t-prompt">&gt;</span> oyunlar --liste</div>
+            <div class="t-row">
+              <b>KOMŞU</b>
+              <span class="t-meta">v1.1.0</span>
+              <span class="t-meta">63.6 MB</span>
+              <span class="t-state">hazır</span>
+            </div>
+            <div class="t-row">
+              <b>CALL OF TANKS</b>
+              <span class="t-meta">5.0V</span>
+              <span class="t-meta">27.1 MB</span>
+              <span class="t-state">hazır</span>
+            </div>
+            <div class="t-row is-locked">
+              <b>BlokArena</b>
+              <span class="t-meta">gizli</span>
+              <span class="t-meta">—</span>
+              <span class="t-state">kilitli</span>
+            </div>
+            <div><span class="t-prompt">&gt;</span> durum</div>
+            <div class="t-ok">2 oyun indirmeye hazır<span class="cursor"></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="oyunlar" aria-labelledby="oyunlar-title">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">Kütüphane</span>
+          <h2 id="oyunlar-title">Oyunları seç, indir</h2>
+          <p>Her oyunun indirme dosyası doğrudan GitHub Releases sayfasından servis edilir. Sürüm, boyut ve indirme sayıları canlı takip edilir; yeni oyunlar da burada listelenecek.</p>
+        </div>
+
+        <div class="games-grid">
+          <article class="game-card reveal" data-game="komsu">
+            <div class="cover">
+              <img src="assets/covers/komsu.svg" alt="KOMŞU: gece komşu evinin kapak görseli" loading="lazy" width="1200" height="750" />
+              <span class="badge badge-ver" data-version>v1.1.0</span>
+              <span class="badge badge-plat">
+                <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><rect width="7" height="7" rx="1"/><rect x="9" width="7" height="7" rx="1"/><rect y="9" width="7" height="7" rx="1"/><rect x="9" y="9" width="7" height="7" rx="1"/></svg>
+                Windows
+              </span>
+            </div>
+            <div class="card-body">
+              <h3>KOMŞU</h3>
+              <p class="desc">Hello Neighbor tarzı, 3B Türkçe gizlilik-korku oyunu. Konuşan komşu, farklı kişilik modları ve iki ayrı final. Evine gir, sırlarını çöz — ama yakalanma.</p>
+              <ul class="tags">
+                <li>Gizlilik-korku</li>
+                <li>Tek oyunculu</li>
+                <li>3B</li>
+                <li>Türkçe</li>
+              </ul>
+              <div class="actions">
+                <a class="btn btn-primary" data-role="download" href="https://github.com/pandaytmm/komsu/releases/download/v1.1.0/KOMSU.exe">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M12 3v10m0 0 4.5-4.5M12 13 7.5 8.5" />
+                    <path d="M4 16.5V19a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 20 19v-2.5" />
+                  </svg>
+                  İndir <span class="btn-meta" data-size>63.6 MB</span>
+                </a>
+                <a class="btn btn-ghost" href="https://github.com/pandaytmm/komsu" target="_blank" rel="noopener" aria-label="KOMŞU kaynak kodu (GitHub)">
+                  <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                  </svg>
+                  Kaynak
+                </a>
+              </div>
+              <p class="dl-meta"><strong data-downloads>1</strong> kez indirildi · GitHub Releases</p>
+            </div>
+          </article>
+
+          <article class="game-card reveal" data-game="cot">
+            <div class="cover">
+              <img src="assets/covers/cot.svg" alt="CALL OF TANKS: gün batımında tank savaşı kapak görseli" loading="lazy" width="1200" height="750" />
+              <span class="badge badge-ver" data-version>v5.0</span>
+              <span class="badge badge-plat">
+                <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><rect width="7" height="7" rx="1"/><rect x="9" width="7" height="7" rx="1"/><rect y="9" width="7" height="7" rx="1"/><rect x="9" y="9" width="7" height="7" rx="1"/></svg>
+                Windows · Android
+              </span>
+            </div>
+            <div class="card-body">
+              <h3>CALL OF TANKS</h3>
+              <p class="desc">Python ile geliştirilmiş tank savaşı oyunu. Windows sürümünü indir ya da Android derleme dosyalarıyla cebinde oyna. 5.0 sürümünde yenilenmiş arena ve kontroller.</p>
+              <ul class="tags">
+                <li>Aksiyon</li>
+                <li>Python</li>
+                <li>2B savaş</li>
+                <li>Android desteği</li>
+              </ul>
+              <div class="actions">
+                <a class="btn btn-primary" data-role="download" href="https://github.com/pandaytmm/CALL-OF-TANKS-BETA-MAC/releases/download/CALL.OF.TANKS.5.0V/CALL.OF.TANKS.zip">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M12 3v10m0 0 4.5-4.5M12 13 7.5 8.5" />
+                    <path d="M4 16.5V19a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 20 19v-2.5" />
+                  </svg>
+                  İndir <span class="btn-meta" data-size>27.1 MB</span>
+                </a>
+                <a class="btn btn-ghost" href="https://github.com/pandaytmm/CALL-OF-TANKS-BETA-MAC" target="_blank" rel="noopener" aria-label="CALL OF TANKS kaynak kodu (GitHub)">
+                  <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                  </svg>
+                  Kaynak
+                </a>
+              </div>
+              <p class="dl-meta"><strong data-downloads>4</strong> kez indirildi · GitHub Releases</p>
+            </div>
+          </article>
+
+          <article class="game-card is-locked reveal">
+            <div class="cover">
+              <img src="assets/covers/blokarena.svg" alt="BlokArena: izometrik blok arenası kapak görseli" loading="lazy" width="1200" height="750" />
+              <span class="badge badge-soon">Gizli geliştirme</span>
+              <span class="lock-note">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                  <rect x="5" y="11" width="14" height="9" rx="2" />
+                  <path d="M8 11V8a4 4 0 0 1 8 0v3" />
+                </svg>
+                Özel erişim
+              </span>
+            </div>
+            <div class="card-body">
+              <h3>BlokArena</h3>
+              <p class="desc">Blok tabanlı çok oyunculu arena savaşı. Sunucu, launcher ve düello modları üzerinde çalışıyorum; özel erişimde geliştiriliyor, çok yakında herkese açılacak.</p>
+              <ul class="tags">
+                <li>Çok oyunculu</li>
+                <li>Node.js</li>
+                <li>Yakında</li>
+              </ul>
+              <div class="actions">
+                <button class="btn btn-primary is-disabled" type="button" disabled>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                    <rect x="5" y="11" width="14" height="9" rx="2" />
+                    <path d="M8 11V8a4 4 0 0 1 8 0v3" />
+                  </svg>
+                  Yakında yayında
+                </button>
+              </div>
+              <p class="dl-meta">Herkese açık sürüm hazırlanıyor</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="nasil" aria-labelledby="nasil-title">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">3 adımda</span>
+          <h2 id="nasil-title">İndir, aç ve oyna</h2>
+          <p>Kurulum sihirbazı yok, hesap açmak yok. Dosyayı indir, çalıştır ve oyuna gir.</p>
+        </div>
+
+        <div class="steps">
+          <div class="step reveal">
+            <span class="step-num">01</span>
+            <h3>İndir</h3>
+            <p>Oyun kartındaki <strong>İndir</strong> butonuna bas. Dosya doğrudan resmi GitHub Releases sayfasından iner.</p>
+          </div>
+          <div class="step reveal">
+            <span class="step-num">02</span>
+            <h3>Aç</h3>
+            <p><strong>KOMŞU.exe</strong> dosyasını çift tıkla. CALL OF TANKS için zip'i bir klasöre çıkarıp README adımlarını izle.</p>
+          </div>
+          <div class="step reveal">
+            <span class="step-num">03</span>
+            <h3>Oyna</h3>
+            <p>Windows SmartScreen uyarı gösterirse <strong>Daha fazla bilgi → Yine de çalıştır</strong> seçeneğiyle devam edebilirsin.</p>
+          </div>
+        </div>
+
+        <div class="note reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="9" />
+            <path d="M12 11v5" />
+            <circle cx="12" cy="8" r="0.5" fill="currentColor" />
+          </svg>
+          <span>
+            Bu site dosyaları kendi barındırmaz; tüm indirmeler GitHub Releases üzerinden yapılır.
+            Sürüm, boyut ve indirme sayısı bilgileri GitHub API'den canlı olarak güncellenir.
+            Sorun yaşarsan <a href="https://github.com/pandaytmm" target="_blank" rel="noopener">GitHub profilimden</a> bana ulaşabilirsin.
+          </span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <span>© 2026 PANDAGAMES · Tüm oyunlar pandaytmm tarafından geliştirilmiştir.</span>
+      <span class="footer-links">
+        <a href="#oyunlar">Oyunlar</a>
+        <a href="#nasil">Nasıl İndirilir?</a>
+        <a href="https://github.com/pandaytmm" target="_blank" rel="noopener">GitHub</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

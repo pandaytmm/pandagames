@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="230 110 760 475" role="img" aria-label="BlokArena oyun kapağı: izometrik blok arenası">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#070d1c"/>
+      <stop offset="1" stop-color="#0d1b33"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.6" r="0.6">
+      <stop offset="0" stop-color="#22d3a7" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#22d3a7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="top1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3ef0b6"/>
+      <stop offset="1" stop-color="#1fae8c"/>
+    </linearGradient>
+    <linearGradient id="sideL" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1fae8c"/>
+      <stop offset="1" stop-color="#127057"/>
+    </linearGradient>
+    <linearGradient id="sideR" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#188a72"/>
+      <stop offset="1" stop-color="#0c5a46"/>
+    </linearGradient>
+    <linearGradient id="top2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5aa4ff"/>
+      <stop offset="1" stop-color="#2f6fe0"/>
+    </linearGradient>
+    <linearGradient id="sideL2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f6fe0"/>
+      <stop offset="1" stop-color="#1d4aa0"/>
+    </linearGradient>
+    <linearGradient id="sideR2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2457b8"/>
+      <stop offset="1" stop-color="#163a7e"/>
+    </linearGradient>
+    <linearGradient id="top3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffb85c"/>
+      <stop offset="1" stop-color="#f07f2e"/>
+    </linearGradient>
+    <linearGradient id="sideL3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f07f2e"/>
+      <stop offset="1" stop-color="#b8541b"/>
+    </linearGradient>
+    <linearGradient id="sideR3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c8641f"/>
+      <stop offset="1" stop-color="#8f3c11"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.45" r="0.8">
+      <stop offset="0.5" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#02040a" stop-opacity="0.7"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <ellipse cx="600" cy="470" rx="520" ry="290" fill="url(#glow)"/>
+
+  <g stroke="#1b335c" stroke-width="1.5" opacity="0.55">
+    <path d="M600 620 L980 470 M600 620 L220 470 M600 620 L600 380 M600 620 L860 320 M600 620 L340 320"/>
+    <path d="M220 470 L600 320 L980 470 M340 320 L720 170 L1100 320"/>
+  </g>
+
+  <g stroke="#12223f" stroke-width="1.5" fill="none" opacity="0.5">
+    <path d="M600 660 L1040 486 L1040 472 L600 646 L160 472 L160 486 Z"/>
+  </g>
+
+  <g transform="translate(330 470)">
+    <polygon points="0,0 78,-34 156,0 78,34" fill="url(#top1)"/>
+    <polygon points="0,0 78,34 78,108 0,74" fill="url(#sideL)"/>
+    <polygon points="156,0 78,34 78,108 156,74" fill="url(#sideR)"/>
+    <polygon points="20,10 62,-8 62,16 20,34" fill="#8affd6" opacity="0.35"/>
+  </g>
+
+  <g transform="translate(380 350)">
+    <polygon points="0,0 56,-24 112,0 56,24" fill="url(#top2)"/>
+    <polygon points="0,0 56,24 56,78 0,54" fill="url(#sideL2)"/>
+    <polygon points="112,0 56,24 56,78 112,54" fill="url(#sideR2)"/>
+  </g>
+
+  <g transform="translate(640 420)">
+    <polygon points="0,0 66,-28 132,0 66,28" fill="url(#top3)"/>
+    <polygon points="0,0 66,28 66,92 0,64" fill="url(#sideL3)"/>
+    <polygon points="132,0 66,28 66,92 132,64" fill="url(#sideR3)"/>
+    <polygon points="18,8 50,-6 50,14 18,28" fill="#ffe0a8" opacity="0.35"/>
+  </g>
+
+  <g transform="translate(760 300)">
+    <polygon points="0,0 44,-19 88,0 44,19" fill="url(#top1)"/>
+    <polygon points="0,0 44,19 44,62 0,43" fill="url(#sideL)"/>
+    <polygon points="88,0 44,19 44,62 88,43" fill="url(#sideR)"/>
+  </g>
+
+  <g fill="#9fe9ff" opacity="0.85">
+    <rect x="250" y="150" width="8" height="8" transform="rotate(45 254 154)"/>
+    <rect x="890" y="120" width="10" height="10" transform="rotate(45 895 125)"/>
+    <rect x="1010" y="240" width="7" height="7" transform="rotate(45 1013 243)"/>
+    <rect x="170" y="300" width="6" height="6" transform="rotate(45 173 303)"/>
+    <rect x="700" y="90" width="6" height="6" transform="rotate(45 703 93)"/>
+  </g>
+
+  <rect width="1200" height="750" fill="url(#vig)"/>
+</svg>

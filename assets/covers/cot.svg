@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="100 120 1000 625" role="img" aria-label="CALL OF TANKS oyun kapağı: gün batımında çöl arenasında karşı karşıya iki tank">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#150b33"/>
+      <stop offset="0.45" stop-color="#4c1c52"/>
+      <stop offset="0.75" stop-color="#c2463f"/>
+      <stop offset="1" stop-color="#ff9a4d"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffd9a0" stop-opacity="0.9"/>
+      <stop offset="0.4" stop-color="#ff9d4d" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ff9d4d" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="dune1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6e2c44"/>
+      <stop offset="1" stop-color="#4a1c33"/>
+    </linearGradient>
+    <linearGradient id="dune2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8f3a45"/>
+      <stop offset="1" stop-color="#5c2236"/>
+    </linearGradient>
+    <linearGradient id="dune3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b2543f"/>
+      <stop offset="1" stop-color="#712c33"/>
+    </linearGradient>
+    <radialGradient id="flash" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.35" stop-color="#ffe36e"/>
+      <stop offset="1" stop-color="#ff8c2e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.45" r="0.75">
+      <stop offset="0.5" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0b0410" stop-opacity="0.65"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#sky)"/>
+
+  <g fill="#3a1b47" opacity="0.75">
+    <path d="M60 200 q40 -26 80 -6 q30 -22 62 0 q44 -8 58 10 q-130 16 -200 -4 z"/>
+    <path d="M760 120 q34 -22 68 -6 q26 -18 54 0 q38 -6 50 8 q-112 14 -172 -2 z"/>
+    <path d="M420 240 q26 -16 52 -4 q20 -14 42 0 q30 -4 38 6 q-84 12 -132 -2 z"/>
+  </g>
+
+  <circle cx="905" cy="392" r="230" fill="url(#sunGlow)"/>
+  <circle cx="905" cy="392" r="80" fill="#ffcf8a"/>
+
+  <path d="M0 560 Q 200 500 420 548 T 860 542 T 1200 552 L1200 750 L0 750 Z" fill="url(#dune1)"/>
+  <path d="M0 606 Q 240 556 470 596 T 900 590 T 1200 600 L1200 750 L0 750 Z" fill="url(#dune2)"/>
+  <path d="M0 664 Q 260 620 520 654 T 980 648 T 1200 656 L1200 750 L0 750 Z" fill="url(#dune3)"/>
+
+  <g transform="translate(210 502)">
+    <ellipse cx="90" cy="122" rx="130" ry="16" fill="#2c1024" opacity="0.55"/>
+    <rect x="-90" y="86" width="180" height="36" rx="17" fill="#1d1220"/>
+    <g fill="#2c1a2c">
+      <circle cx="-66" cy="104" r="11"/><circle cx="-34" cy="104" r="11"/><circle cx="0" cy="104" r="11"/><circle cx="34" cy="104" r="11"/><circle cx="66" cy="104" r="11"/>
+    </g>
+    <path d="M-86 88 L-98 62 L78 62 L92 88 z" fill="#3b2237"/>
+    <path d="M-70 62 L-58 30 L56 30 L70 62 z" fill="#4a2a42"/>
+    <rect x="26" y="38" width="128" height="13" rx="5" fill="#2a1828"/>
+    <circle cx="-10" cy="44" r="20" fill="#3b2237"/>
+    <circle cx="-10" cy="44" r="20" fill="none" stroke="#5a3450" stroke-width="4"/>
+    <path d="M-30 40 L-52 36" stroke="#2a1828" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(880 428)">
+    <ellipse cx="0" cy="158" rx="150" ry="18" fill="#2c1024" opacity="0.5"/>
+    <rect x="-110" y="118" width="220" height="42" rx="20" fill="#170f1c"/>
+    <g fill="#261726">
+      <circle cx="-82" cy="139" r="13"/><circle cx="-44" cy="139" r="13"/><circle cx="0" cy="139" r="13"/><circle cx="44" cy="139" r="13"/><circle cx="82" cy="139" r="13"/>
+    </g>
+    <path d="M-106 120 L-120 92 L96 92 L112 120 z" fill="#33203a"/>
+    <path d="M-88 92 L-74 56 L72 56 L88 92 z" fill="#412943"/>
+    <rect x="-150" y="64" width="150" height="16" rx="7" fill="#241627"/>
+    <circle cx="14" cy="70" r="26" fill="#33203a"/>
+    <circle cx="14" cy="70" r="26" fill="none" stroke="#4d3050" stroke-width="5"/>
+    <rect x="34" y="60" width="86" height="10" rx="5" fill="#241627" transform="rotate(-14 34 60)"/>
+  </g>
+
+  <g>
+    <circle cx="704" cy="486" r="64" fill="url(#flash)"/>
+    <path d="M704 430 l14 34 l36 -8 l-26 26 l24 30 l-38 -12 l-16 34 l-12 -36 l-38 8 l28 -28 l-26 -28 l40 10 z" fill="#ffe36e" opacity="0.95"/>
+    <circle cx="700" cy="486" r="14" fill="#ffffff"/>
+    <circle cx="640" cy="470" r="26" fill="#ff9d4d" opacity="0.16"/>
+    <circle cx="606" cy="448" r="34" fill="#ff9d4d" opacity="0.1"/>
+  </g>
+
+  <g fill="#3a1b30" opacity="0.5">
+    <circle cx="664" cy="560" r="10"/>
+    <circle cx="684" cy="548" r="7"/>
+    <circle cx="704" cy="556" r="5"/>
+  </g>
+
+  <g fill="#2a1327">
+    <path d="M150 652 l16 -30 l16 30 z"/>
+    <path d="M1010 640 l18 -34 l18 34 z"/>
+  </g>
+
+  <rect width="1200" height="750" fill="url(#vig)"/>
+</svg>

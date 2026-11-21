@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="180 80 860 537.5" role="img" aria-label="KOMŞU oyun kapağı: gece bir banliyö evi ve pencerede komşu silueti">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#04171a"/>
+      <stop offset="0.55" stop-color="#0a2b28"/>
+      <stop offset="1" stop-color="#14453c"/>
+    </linearGradient>
+    <radialGradient id="moonGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#bdf9e6" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#bdf9e6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="lit" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe3a1"/>
+      <stop offset="1" stop-color="#e08a2e"/>
+    </linearGradient>
+    <linearGradient id="spill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffc766" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ffc766" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fog" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#79e8cc" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#79e8cc" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#79e8cc" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.45" r="0.75">
+      <stop offset="0.5" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.7"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#sky)"/>
+
+  <g fill="#c9f7e9">
+    <circle cx="140" cy="90" r="2" opacity="0.7"/>
+    <circle cx="260" cy="160" r="1.6" opacity="0.5"/>
+    <circle cx="420" cy="80" r="2.2" opacity="0.8"/>
+    <circle cx="560" cy="140" r="1.4" opacity="0.45"/>
+    <circle cx="710" cy="70" r="1.8" opacity="0.6"/>
+    <circle cx="1060" cy="230" r="1.8" opacity="0.55"/>
+    <circle cx="980" cy="60" r="2" opacity="0.7"/>
+    <circle cx="820" cy="180" r="1.3" opacity="0.4"/>
+    <circle cx="90" cy="220" r="1.5" opacity="0.5"/>
+    <circle cx="1140" cy="110" r="1.6" opacity="0.5"/>
+  </g>
+
+  <circle cx="955" cy="140" r="160" fill="url(#moonGlow)"/>
+  <circle cx="955" cy="140" r="44" fill="#d8fbef"/>
+  <circle cx="968" cy="128" r="10" fill="#b7e6d7" opacity="0.55"/>
+  <circle cx="945" cy="152" r="7" fill="#b7e6d7" opacity="0.45"/>
+
+  <path d="M0 560 Q 120 520 240 552 T 480 548 T 720 554 T 960 545 T 1200 556 L1200 750 L0 750 Z" fill="#071713"/>
+  <path d="M40 540 l26 -70 l26 70 z M96 545 l20 -54 l20 54 z M1110 538 l24 -66 l24 66 z M1050 552 l18 -48 l18 48 z" fill="#04100d" opacity="0.9"/>
+
+  <g>
+    <rect x="392" y="332" width="376" height="238" fill="#0c1915" stroke="#16281f" stroke-width="3"/>
+    <polygon points="362,340 580,196 798,340" fill="#0a1411" stroke="#15241d" stroke-width="3"/>
+    <rect x="672" y="238" width="40" height="86" fill="#0a1411" stroke="#15241d" stroke-width="3"/>
+    <rect x="678" y="230" width="28" height="10" fill="#0a1411"/>
+
+    <rect x="452" y="388" width="86" height="96" fill="url(#lit)" stroke="#101e18" stroke-width="4"/>
+    <line x1="495" y1="388" x2="495" y2="484" stroke="#101e18" stroke-width="4"/>
+    <line x1="452" y1="436" x2="538" y2="436" stroke="#101e18" stroke-width="4"/>
+    <circle cx="495" cy="432" r="15" fill="#1d1009"/>
+    <path d="M472 484 q23 -32 46 0 z" fill="#1d1009"/>
+
+    <rect x="604" y="388" width="86" height="96" fill="#0d1e18" stroke="#16281f" stroke-width="4"/>
+    <line x1="647" y1="388" x2="647" y2="484" stroke="#16281f" stroke-width="4"/>
+    <line x1="604" y1="436" x2="690" y2="436" stroke="#16281f" stroke-width="4"/>
+
+    <rect x="552" y="470" width="56" height="100" fill="#0b1613" stroke="#16281f" stroke-width="3"/>
+    <circle cx="596" cy="522" r="3.5" fill="#89b7a5"/>
+    <rect x="538" y="568" width="84" height="9" fill="#0e1c17"/>
+
+    <polygon points="452,484 538,484 588,640 402,640" fill="url(#spill)"/>
+  </g>
+
+  <g stroke="#0a1713" stroke-width="7">
+    <line x1="190" y1="606" x2="190" y2="664"/>
+    <line x1="214" y1="606" x2="214" y2="664"/>
+    <line x1="238" y1="606" x2="238" y2="664"/>
+    <line x1="262" y1="606" x2="262" y2="664"/>
+    <line x1="286" y1="606" x2="286" y2="664"/>
+    <line x1="310" y1="606" x2="310" y2="664"/>
+    <line x1="334" y1="606" x2="334" y2="664"/>
+  </g>
+  <line x1="180" y1="622" x2="344" y2="622" stroke="#0a1713" stroke-width="6"/>
+  <line x1="180" y1="650" x2="344" y2="650" stroke="#0a1713" stroke-width="6"/>
+
+  <g>
+    <rect x="952" y="378" width="8" height="188" rx="3" fill="#0a1512"/>
+    <rect x="930" y="366" width="52" height="16" rx="7" fill="#0d1a15"/>
+    <ellipse cx="956" cy="372" rx="18" ry="7" fill="#ffe6a8"/>
+    <ellipse cx="956" cy="392" rx="90" ry="46" fill="#ffd98a" opacity="0.12"/>
+    <ellipse cx="956" cy="572" rx="130" ry="26" fill="#ffd98a" opacity="0.07"/>
+  </g>
+
+  <rect x="0" y="520" width="1200" height="120" fill="url(#fog)"/>
+  <rect width="1200" height="750" fill="url(#vig)"/>
+</svg>
